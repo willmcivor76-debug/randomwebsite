@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="/images/chicken.png">
+        <title>Home</title>
+        <meta name = "description" content= "home is cool too">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="rock.html">ROCK</a></li>
+                </ul>
+            </nav>
+            <br>
+            <br>
+        <section>
+            <p class="jkdj">
+                This is a Random Website
+            </p>
+            <div class="wordler">
+                <audio id="myAudio" src="/sounds/Mamma mia Mario - QuickSounds.com.mp3" preload="auto"></audio>
+  
+                <script>
+                    function playAudio() {
+                        document.getElementById("myAudio").play();
+                    }
+                </script>
+                <audio id="myAudio" src="soundfile.mp3" preload="auto"></audio>
+                <button class="btn btn-header" id="myButton">Cool Sound</button>
+                <script>
+                    // Get the audio and button elements
+                    const audio = document.getElementById("myAudio");
+                    const button = document.getElementById("myButton");
+
+                    // Add a click event listener to the button
+                    button.addEventListener("click", () => {
+                        audio.play();
+                    });
+                </script>
+            </div>
+        </section>
+            <!-- put in background image! -->
+            <!--button type="button">Go to Rock</button-->
+            <br>
+            <br>
+        </header>
+        <footer class="foots">
+            <h3 class="name-name">The rocks</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.generatormix.com/random-rocks#google_vignette" target="_blank">
+                        <img src="images\mossy_stone_bricks.png" width="50" height="50">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
