@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "jrandomc";
-    src: url(fonts/jrandomc.ttf);
+    src: url(/fonts/jrandomc.ttf);
 }
 
 * {
@@ -55,7 +55,7 @@ html, body {
 .main-header {
     color: aliceblue;
     background-color: rgba(0, 0, 0, .6);
-    background-image: url(images/bricks.png);
+    background-image: url(/images/bricks.png);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -80,7 +80,7 @@ html, body {
     color: white;
     font-size: 1.3em;
     background-color: rgb(99, 152, 103);
-    background-image: url(images/lichen_texture.png);
+    background-image: url(/images/lichen_texture.png);
     background-blend-mode: multiply;
     padding-top: 5%;
 }
@@ -117,7 +117,7 @@ html, body {
     color: white;
     font-size: 1.3em;
     background-color: rgb(99, 152, 103);
-    background-image: url(images/lichen_texture.png);
+    background-image: url(/images/lichen_texture.png);
     background-blend-mode: multiply;
     padding-top: 20%;
 }
