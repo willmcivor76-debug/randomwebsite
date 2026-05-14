@@ -80,7 +80,7 @@ html, body {
     color: white;
     font-size: 1.3em;
     background-color: rgb(99, 152, 103);
-    background-image: url(/images/lichen_texture.png);
+    background-image: url(images/lichen_texture.png);
     background-blend-mode: multiply;
     padding-top: 5%;
 }
@@ -117,7 +117,7 @@ html, body {
     color: white;
     font-size: 1.3em;
     background-color: rgb(99, 152, 103);
-    background-image: url(/images/lichen_texture.png);
+    background-image: url(images/lichen_texture.png);
     background-blend-mode: multiply;
     padding-top: 20%;
 }
