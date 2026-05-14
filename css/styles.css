@@ -55,7 +55,7 @@ html, body {
 .main-header {
     color: aliceblue;
     background-color: rgba(0, 0, 0, .6);
-    background-image: url(/images/bricks.png);
+    background-image: url(images/bricks.png);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
